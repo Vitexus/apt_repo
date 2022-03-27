@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include vitexus.apt_repo"
+      include_role:
+        name: "vitexus.apt_repo"
